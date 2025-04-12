@@ -4,7 +4,7 @@ import path from 'path';
 import cors from 'cors'
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: 'http://localhost:5173' }));
 const PORT = 3000;
 
 // Load the JSON data
@@ -13,7 +13,7 @@ const readings = JSON.parse(fs.readFileSync(readingsPath, 'utf8'));
 
 // Define the endpoint
 app.get('/api/reading', (req: Request, res: Response) => {
-  res.set('Access-Control-Allow-Origin', 'http://localhost:5173'); // Allow the React app's origin
+  res.set('Cache-Control', 'no-store');
   console.log(req);
   const date = req.query.date as string;
 
