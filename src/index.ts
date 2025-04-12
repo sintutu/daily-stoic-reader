@@ -1,8 +1,10 @@
 import express , { Request, Response } from 'express';
 import fs from 'fs';
 import path from 'path';
+import cors from 'cors'
 
 const app = express();
+app.use(cors());
 const PORT = 3000;
 
 // Load the JSON data
@@ -11,6 +13,7 @@ const readings = JSON.parse(fs.readFileSync(readingsPath, 'utf8'));
 
 // Define the endpoint
 app.get('/api/reading', (req: Request, res: Response) => {
+  console.log(req);
   const date = req.query.date as string;
 
   if (!date) {
