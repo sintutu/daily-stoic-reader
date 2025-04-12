@@ -13,6 +13,7 @@ const readings = JSON.parse(fs.readFileSync(readingsPath, 'utf8'));
 
 // Define the endpoint
 app.get('/api/reading', (req: Request, res: Response) => {
+  res.set('Access-Control-Allow-Origin', 'http://localhost:5173'); // Allow the React app's origin
   console.log(req);
   const date = req.query.date as string;
 
