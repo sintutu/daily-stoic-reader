@@ -16,10 +16,11 @@ app.get('/api/reading', (req: Request, res: Response) => {
   // Log the incoming request
   console.log(`Request received from: ${req.headers.origin}`);
   console.log(`Query parameters:`, req.query);
-  
+
   const date = req.query.date as string;
 
   if (!date) {
+    console.log('Date query parameter is missing.');
     return res.status(400).json({ error: 'Date query parameter is required.' });
   }
 
