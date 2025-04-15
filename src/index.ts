@@ -13,8 +13,10 @@ const readings = JSON.parse(fs.readFileSync(readingsPath, 'utf8'));
 
 // Define the endpoint
 app.get('/api/reading', (req: Request, res: Response) => {
-  res.set('Cache-Control', 'no-store');
-  console.log(req);
+  // Log the incoming request
+  console.log(`Request received from: ${req.headers.origin}`);
+  console.log(`Query parameters:`, req.query);
+  
   const date = req.query.date as string;
 
   if (!date) {
