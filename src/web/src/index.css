@@ -61,6 +61,10 @@ body.light-mode #datepicker {
   font-size: 1rem; /* Font size for text */
 }
 
+body.light-mode #datepicker::-webkit-calendar-picker-indicator {
+  filter: invert(100%); /* Keeps the calendar icon dark */
+}
+
 /* Dark Mode */
 body.dark-mode #datepicker {
   background-color: #242424; /* Dark background */
@@ -68,6 +72,10 @@ body.dark-mode #datepicker {
   border: 1px solid #666; /* Dark border */
   padding: 0.5rem; /* Keep consistent padding */
   font-size: 1rem; /* Keep consistent font size */
+}
+
+body.dark-mode #datepicker::-webkit-calendar-picker-indicator {
+  filter: invert(0%); /* Keeps the calendar icon light */
 }
 
 /* Light Mode Buttons */
