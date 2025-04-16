@@ -13,6 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Light Mode */
+:root.light-mode {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark Mode */
+:root.dark-mode {
+  --background-color: #242424;
+  --text-color: #ffffff;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -28,6 +40,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 h1 {
