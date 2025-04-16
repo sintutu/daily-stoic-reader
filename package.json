@@ -1,0 +1,16 @@
+{
+    "name": "daily-stoic-reader",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start:api": "npm --prefix src/api start",
+        "start:web": "npm --prefix src/web run dev",
+        "build:api": "npm --prefix src/api build",
+        "build:web": "npm --prefix src/web build",
+        "start": "concurrently \"npm run start:api\" \"npm run start:web\"",
+        "build": "npm run build:api && npm run build:web"
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}
