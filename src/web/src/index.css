@@ -40,8 +40,34 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: var(--background-color);
-  color: var(--text-color);
+}
+
+body.light-mode {
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Light text */
+}
+
+body.dark-mode {
+  background-color: #242424; /* Dark background */
+  color: #ffffff; /* Dark text */
+}
+
+/* Light Mode */
+body.light-mode #datepicker {
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  border: 1px solid #ccc; /* Light border */
+  padding: 0.5rem; /* Space inside the input box */
+  font-size: 1rem; /* Font size for text */
+}
+
+/* Dark Mode */
+body.dark-mode #datepicker {
+  background-color: #242424; /* Dark background */
+  color: #ffffff; /* White text */
+  border: 1px solid #666; /* Dark border */
+  padding: 0.5rem; /* Keep consistent padding */
+  font-size: 1rem; /* Keep consistent font size */
 }
 
 h1 {
