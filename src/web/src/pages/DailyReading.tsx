@@ -54,9 +54,8 @@ const DailyReading: React.FC = () => {
           <h3>{reading.title}</h3>
           <blockquote>
             <p>{reading.quote}</p>
-            <footer>- {reading.author}</footer>
           </blockquote>
-          <p><strong>Citation:</strong> {reading.citation}</p>
+          <footer>- {reading.author} - {reading.citation}</footer>
         </div>
       ) : (
         !error && <p>Loading...</p>
