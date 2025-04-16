@@ -18,7 +18,7 @@ const CopyButton: React.FC<{ date: string; title: string; quote: string; author:
 
   const handleCopy = () => {
     const formattedDate = formatDate(date);
-    const contentToCopy = `${formattedDate}\n\n**${title}**\n\n${quote}\n\n- ${author} - ${citation}`;
+    const contentToCopy = `${formattedDate}\n\n${title}\n\n${quote}\n\n- ${author} - ${citation}`;
 
     navigator.clipboard.writeText(contentToCopy).then(() => {
       setButtonText("Copied!");
