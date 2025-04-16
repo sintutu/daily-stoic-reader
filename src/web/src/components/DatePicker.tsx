@@ -16,7 +16,6 @@ const DatePicker: React.FC<DatePickerProps> = ({ defaultDate, onDateChange }) =>
 
   return (
     <div style={{ marginBottom: '1rem' }}>
-      <label htmlFor="datepicker">Select Date: </label>
       <input
         id="datepicker"
         type="date"

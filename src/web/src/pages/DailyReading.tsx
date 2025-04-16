@@ -54,9 +54,9 @@ const DailyReading: React.FC = () => {
           <h2>{reading.theme}</h2>
           <h3>{reading.title}</h3>
           <blockquote>
-            <p>{reading.quote}</p>
+            <p>"{reading.quote}"</p>
           </blockquote>
-          <footer>- {reading.author} - {reading.citation}</footer>
+          <footer>- {reading.author}, <em>{reading.citation}</em></footer>
           {/* Add the CopyButton here */}
           <CopyButton
             date={date}

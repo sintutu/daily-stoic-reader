@@ -114,9 +114,9 @@
   "01-17": {
       "theme": "CLARITY",
       "title": "REBOOT THE REAL WORK",
-      "quote": "I am your teacher and you are learning in my school. My aim is to bring you to completion, unhindered, free from compulsive behavior, unrestrained, without shame, free, flourishing, and happy, looking to God in things great and small--your aim is to learn and diligently practice all these things. Why then don't you complete the work, if you have the right aim and I have both the right aim and right preparation? What is missing? . . . The work is quite feasible, and is the only thing in our power. . . . Let go of the past. We must only begin. Believe me and you will see.\"--EPICTETUS, DISCOURSES, 2.19.29-34",
-      "author": null,
-      "citation": null
+      "quote": "I am your teacher and you are learning in my school. My aim is to bring you to completion, unhindered, free from compulsive behavior, unrestrained, without shame, free, flourishing, and happy, looking to God in things great and small--your aim is to learn and diligently practice all these things. Why then don't you complete the work, if you have the right aim and I have both the right aim and right preparation? What is missing? . . . The work is quite feasible, and is the only thing in our power. . . . Let go of the past. We must only begin. Believe me and you will see.",
+      "author": "EPICTETUS",
+      "citation": "DISCOURSES, 2.19.29-34"
   },
   "01-18": {
       "theme": "CLARITY",
@@ -149,9 +149,9 @@
   "01-22": {
       "theme": "CLARITY",
       "title": "THE DAY IN REVIEW",
-      "quote": "I will keep constant watch over myself and--most usefully--will put each day up for review. For this is what makes us evil--that none of us looks back upon our own lives. We reflect upon only that which we are about to do. And yet our plans for the future descend from the past.\" --SENECA, MORAL LETTERS, 83.2",
-      "author": null,
-      "citation": null
+      "quote": "I will keep constant watch over myself and--most usefully--will put each day up for review. For this is what makes us evil--that none of us looks back upon our own lives. We reflect upon only that which we are about to do. And yet our plans for the future descend from the past.",
+      "author": "SENECA",
+      "citation": "MORAL LETTERS, 83.2"
   },
   "01-23": {
       "theme": "CLARITY",
@@ -632,9 +632,9 @@
   "03-31": {
       "theme": "UNBIASED THOUGHT",
       "title": "YOU'RE A PRODUCT OF YOUR TRAINING",
-      "quote": "Chasing what can't be done is madness. But the base person is unable to do anything else.\" MARCUS AURELIUS, MEDITATIONS, 5.17 UNBIASED THOUGHT",
-      "author": "",
-      "citation": ""
+      "quote": "Chasing what can't be done is madness. But the base person is unable to do anything else.", 
+      "author": "MARCUS AURELIUS",
+      "citation": "MEDITATIONS, 5.17"
   },
   "04-01": {
       "theme": "UNBIASED THOUGHT",
@@ -828,9 +828,9 @@
   "04-28": {
       "theme": "UNBIASED THOUGHT",
       "title": "WANTS MAKE YOU A SERVANT",
-      "quote": "Tantalus: The highest power is-- Thyestes: No power, if you desire nothing.",
-      "author": null,
-      "citation": null
+      "quote": "Tantalus: The highest power is--\n\n Thyestes: No power, if you desire nothing.",
+      "author": "SENECA",
+      "citation": "THYESTES, 440"
   },
   "04-29": {
       "theme": "UNBIASED THOUGHT",
@@ -1423,9 +1423,9 @@
   "07-22": {
       "theme": "DUTY",
       "title": "NO ONE HAS A GUN TO YOUR HEAD",
-      "quote": "Nothing is noble if it's done unwillingly or under compulsion. Every noble deed is voluntary.\"--SENECA, MORAL LETTERS, 66.16b",
-      "author": null,
-      "citation": null
+      "quote": "Nothing is noble if it's done unwillingly or under compulsion. Every noble deed is voluntary.",
+      "author": "SENECA",
+      "citation": "MORAL LETTERS, 66.16b"
   },
   "07-23": {
       "theme": "DUTY",
@@ -1438,8 +1438,8 @@
       "theme": "DUTY",
       "title": "SOMEWHERE SOMEONE'S DYING",
       "quote": "Whenever disturbing news is delivered to you, bear in mind that no news can ever be relevant to your reasoned choice. Can anyone break news to you that your assumptions or desires are wrong? No way! But they can tell you someone died--even so, what is that to you?",
-      "author": null,
-      "citation": null
+      "author": "EPICTETUS",
+      "citation": "DISCOURSES, 3.17.1-2"
   },
   "07-25": {
       "theme": "DUTY",
@@ -1472,9 +1472,9 @@
   "07-29": {
       "theme": "DUTY",
       "title": "A CURE FOR THE SELF",
-      "quote": "The person who has practiced philosophy as a cure for the self becomes great of soul, filled with confidence, invincible--and greater as you draw near.\" - - -SENECA, MORAL LETTERS, 111.2",
-      "author": null,
-      "citation": null
+      "quote": "The person who has practiced philosophy as a cure for the self becomes great of soul, filled with confidence, invincible--and greater as you draw near.",
+      "author": "SENECA",
+      "citation": " MORAL LETTERS, 111.2"
   },
   "07-30": {
       "theme": "DUTY",
@@ -1724,9 +1724,9 @@
   "09-03": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "FIRST, A HARD WINTER TRAINING",
-      "quote": "We must undergo a hard winter training and not rush into things for which we haven't prepared.\"--EPICTETUS, DISCOURSES, 1.2.32",
-      "author": null,
-      "citation": null
+      "quote": "We must undergo a hard winter training and not rush into things for which we haven't prepared.",
+      "author": "EPICTETUS",
+      "citation": "DISCOURSES, 1.2.32"
   },
   "09-04": {
       "theme": "FORTITUDE AND RESILIENCE",
@@ -1914,8 +1914,8 @@
       "theme": "VIRTUE AND KINDNESS",
       "title": "YOU CAN'T TOUCH ME",
       "quote": "If you lay violent hands on me, you'll have my body, but my mind will remain with Stilpo.\" VIRTUE AND KINDNESS",
-      "author": "ZENO",
-      "citation": "QUOTED IN DIOGENES LAERTIUS, LIVES OF THE EMINENT PHILOSOPHERS, 7.1.24"
+      "author": "ZENO, QUOTED IN DIOGENES LAERTIUS",
+      "citation": "LIVES OF THE EMINENT PHILOSOPHERS, 7.1.24"
   },
   "10-01": {
       "theme": "VIRTUE AND KINDNESS",
@@ -1949,8 +1949,8 @@
       "theme": "VIRTUE AND KINDNESS",
       "title": "WORDS CAN'T BE UNSAID",
       "quote": "Better to trip with the feet than with the tongue.",
-      "author": "ZENO",
-      "citation": "QUOTED IN DIOGENES LAERTIUS, LIVES OF THE EMINENT PHILOSOPHERS, 7.1.26"
+      "author": "ZENO, QUOTED IN DIOGENES LAERTIUS",
+      "citation": "LIVES OF THE EMINENT PHILOSOPHERS, 7.1.26"
   },
   "10-06": {
       "theme": "VIRTUE AND KINDNESS",
@@ -2166,8 +2166,8 @@
       "theme": "ACCEPTANCE",
       "title": "A HIGHER POWER",
       "quote": "This is the very thing which makes up the virtue of the happy person and a well-flowing life--when the affairs of life are in every way tuned to the harmony between the individual divine spirit and the will of the director of the universe.",
-      "author": "CHRYSIPPUS",
-      "citation": "QUOTED IN DIOGENES LAERTIUS, LIVES OF THE EMINENT PHILOSOPHERS, 7.1.88"
+      "author": "CHRYSIPPUS, QUOTED IN DIOGENES LAERTIUS",
+      "citation": "LIVES OF THE EMINENT PHILOSOPHERS, 7.1.88"
   },
   "11-06": {
       "theme": "ACCEPTANCE",
@@ -2278,8 +2278,8 @@
       "theme": "ACCEPTANCE",
       "title": "ONCE IS ENOUGH, ONCE IS FOREVER",
       "quote": "A good isn't increased by the addition of time, but if one is wise for even a moment, they will be no less happy than the person who exercises virtue for all time and happily passes their life in it.",
-      "author": "CHRYSIPPUS QUOTED BY PLUTARCH IN MORALIA: \"AGAINST THE STOICS ON COMMON CONCEPTIONS",
-      "citation": "\" 1062 (LOEB, P. 682)"
+      "author": "CHRYSIPPUS QUOTED BY PLUTARCH IN",
+      "citation": "MORALIA: \"AGAINST THE STOICS ON COMMON CONCEPTIONS\" 1062 (LOEB, P. 682)"
   },
   "11-22": {
       "theme": "ACCEPTANCE",
