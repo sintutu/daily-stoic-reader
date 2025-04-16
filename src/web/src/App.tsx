@@ -19,7 +19,7 @@ const App: React.FC = () => {
     <div>
     {/* Add the toggle button */}
     <header>
-      <button onClick={toggleTheme}>
+      <button id="theme-toggle" onClick={toggleTheme}>
         Switch to {theme === "light-mode" ? "Dark Mode" : "Light Mode"}
       </button>
     </header>

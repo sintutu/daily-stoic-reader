@@ -70,6 +70,41 @@ body.dark-mode #datepicker {
   font-size: 1rem; /* Keep consistent font size */
 }
 
+/* Light Mode Buttons */
+body.light-mode button {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+  border: 1px solid #ccc; /* Subtle border */
+  padding: 0.6rem 1.2rem; /* Add padding for better appearance */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode button:hover {
+  background-color: #e0e0e0; /* Slightly darker grey on hover */
+}
+
+/* Dark Mode Buttons */
+body.dark-mode button {
+  background-color: #444; /* Dark grey background */
+  color: #ddd; /* Light grey text */
+  border: 1px solid #666; /* Subtle border */
+  padding: 0.6rem 1.2rem; /* Add padding for better appearance */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode button:hover {
+  background-color: #555; /* Slightly lighter grey on hover */
+}
+
+/* Add spacing for the Copy Button */
+button.copy-button {
+  margin-top: 1rem; /* Adds space between the button and content above */
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

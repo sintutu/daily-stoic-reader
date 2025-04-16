@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import DatePicker from '../components/DatePicker';
+import CopyButton from '../components/CopyButton';
 
 const getPacificDate = (): string => {
   const now = new Date();
@@ -54,9 +55,16 @@ const DailyReading: React.FC = () => {
           <h3>{reading.title}</h3>
           <blockquote>
             <p>{reading.quote}</p>
-            <footer>- {reading.author}</footer>
           </blockquote>
-          <p><strong>Citation:</strong> {reading.citation}</p>
+          <footer>- {reading.author} - {reading.citation}</footer>
+          {/* Add the CopyButton here */}
+          <CopyButton
+            date={date}
+            title={reading.title}
+            quote={reading.quote}
+            author={reading.author}
+            citation={reading.citation}
+          />
         </div>
       ) : (
         !error && <p>Loading...</p>
