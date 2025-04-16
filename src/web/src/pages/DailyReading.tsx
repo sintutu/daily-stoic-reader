@@ -40,7 +40,7 @@ const DailyReading: React.FC = () => {
 
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: 'auto', padding: '1rem' }}>
-      <h1>Daily Stoic Reading</h1>
+      <h1>Daily Ponderance</h1>
 
       {/* DatePicker with default date */}
       <DatePicker defaultDate={date} onDateChange={setDate} />
